@@ -34,15 +34,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
+                    
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="about.php">About</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="streaks.php">Streaks</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="profile.php">Profile</a>
-                    </li>
+                    
                 </ul>
 
             </div>
@@ -79,7 +75,7 @@
                             <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
                         </div>
                         <div class="etc-login-form">
-                            <p>already have an account? <a href="signin.php">login here</a></p>
+                            <p>Have an existing account? <a href="signin.php">login here</a></p>
                         </div>
                     </form>
                 </div>

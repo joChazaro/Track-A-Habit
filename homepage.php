@@ -1,19 +1,21 @@
 <html lang="en">
-
+TODO: add navbar links, check css and js imports
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
     <title>Track-A-Habit</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">>
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"/>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/"/>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 
 
     <!-- Custom styles for this template -->
@@ -34,14 +36,14 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" href="streaks.php">Streaks</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" href="profile.php">Profile</a>
                     </li>
                 </ul>
-               
+
             </div>
         </nav>
     </header>
@@ -50,6 +52,8 @@
     <main role="main" class="container">
         <h1 class="mt-5">Welcome back to Track-A-Habit!</h1>
         <p class="lead">
+
+
 
         </p>
 

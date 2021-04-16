@@ -48,37 +48,9 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-        <h1 class="mt-5">Welcome to Track-A-Habit!</h1>
-        <p class="lead"> Track-A-Habit is a fresh new way to build up good habits and get rid of bad ones. With Track-A-Habit,
-            you'll be able to easily identify which habits you have built over the years and where you should put your attention on next.
-            Track-A-Habit is different from other to-do-list and goal oriented apps because here you will be able do some soul searching to identify
-            the real reason you wish to build or stop a new habit.
-        </p>
+        <h1 class="mt-5">Welcome back to Track-A-Habit!</h1>
         <p class="lead">
-            You see, one of the greatest barriers in becoming the person you wish to become is convincing your brain <i>why </i> you want be that person.
-            What drives you? Is it the money? Fame? Family pride? Whatever it is, there's no judgement here, because Track-A-Habit is designed to help <i>you</i>. Track-A-Habit helps
-            organize your thoughts and ideas so that you can become the best person you wish to be.
-        </p>
 
-        <h1 class="mt-5">Here's how it works!</h1>
-        <p class="lead">
-        <ol class="list-group">
-            <li class="list-group-item"> 1. Cras justo odio
-            
-            </li>
-            <li class="list-group-item"> 2. Dapibus ac facilisis in
-            
-            </li>
-            <li class="list-group-item"> 3. Morbi leo risus
-            
-            </li>
-            <li class="list-group-item"> 4. Porta ac consectetur ac
-            
-            </li>
-            <li class="list-group-item"> 5. Vestibulum at eros
-            
-            </li>
-        </ol>
         </p>
 
     </main>
