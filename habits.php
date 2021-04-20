@@ -18,68 +18,118 @@
 
     <!-- Custom styles for this template -->
     <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/list.css" rel="stylesheet">
+
 </head>
 
 <body>
+<header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="homepage.php">Track-A-Habit</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.php">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="streaks.php">Streaks</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="profile.php">Profile</a>
+                </li>
+            </ul>
 
-    <header>
-        <!-- Fixed navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="homepage.php">Track-A-Habit</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="streaks.php">Streaks</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="profile.php">Profile</a>
-                    </li>
-                </ul>
-
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
     <!-- Begin page content -->
     <main role="main" class="container">
 
     <h1 class="mt-5">Habits due today:</h1>
+
         <div class="row container d-flex justify-content-center">
             <div class="col-md-12">
-                
                     <div class="card-body">
                         <div class="list-wrapper">
-                            <ul class="d-flex flex-column-reverse todo-list">
+                            <ul class="d-flex flex-column-reverse todo-list" id="myUL">
                                 <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> For what reason would it be advisable. <i class="input-helper"></i></label> </div>
+                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> Maintain my morning routine<i class="input-helper"></i></label> </div>
                                 <li class="completed">
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox" checked=""> For what reason would it be advisable for me to think. <i class="input-helper"></i></label> </div>
+                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox" checked=""> Walk for 30mins<i class="input-helper"></i></label> </div>
                                 </li>
                                 <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> it be advisable for me to think about business content? <i class="input-helper"></i></label> </div>
+                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> Read for 30mins<i class="input-helper"></i></label> </div>
                                 </li>
                                 <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> Print Statements all <i class="input-helper"></i></label> </div> 
+                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> Update daily block-schedule <i class="input-helper"></i></label> </div>
                                 </li>
                                 <li class="completed">
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox" checked=""> Call Rampbo <i class="input-helper"></i></label> </div> 
+                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox" checked=""> Daily prayer.<i class="input-helper"></i></label> </div>
                                 </li>
                                 <li>
-                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> Print bills <i class="input-helper"></i></label> </div>
+                                    <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> Drink 64oz of water<i class="input-helper"></i></label> </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
-               
             </div>
         </div>
+        <h1 class="mt-5">Habits due this week:</h1>
 
+        <div class="row container d-flex justify-content-center">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <div class="list-wrapper">
+                        <ul class="d-flex flex-column-reverse todo-list">
+                            <li>
+                                <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> Workout 3 days a week <i class="input-helper"></i></label> </div>
+                            <li class="completed">
+                                <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox" checked=""> Finish Coursera Assignments <i class="input-helper"></i></label> </div>
+                            </li>
+                            <li>
+                                <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox"> Publish weekly blog <i class="input-helper"></i></label> </div>
+                            </li>
+                            <li class="completed">
+                                <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox" checked="">Update weekly To Do list on Trello<i class="input-helper"></i></label> </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="mt-5">Habits due this month:</h1>
+
+        <div class="row container d-flex justify-content-center">
+            <div class="col-md-12">
+
+                <div class="card-body">
+                    <div class="list-wrapper">
+                        <ul class="d-flex flex-column-reverse todo-list">
+                            <li>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="checkbox" type="checkbox"> Finish 1 book <i class="input-helper"></i>
+                                    </label>
+                                </div>
+                            <li class="completed">
+                                <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox" checked="true"> Update vision board <i class="input-helper"></i></label> </div>
+                            </li>
+                            <li class="completed">
+                                <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox" checked=""> Finalize this month's finance & budget sheet <i class="input-helper"></i></label> </div>
+                            </li>
+                            <li class="completed">
+                                <div class="form-check"> <label class="form-check-label"> <input class="checkbox" type="checkbox" checked="true">Pay Rent 1 week in advance <i class="input-helper"></i></label> </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Bootstrap core JavaScript

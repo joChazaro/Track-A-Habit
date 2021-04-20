@@ -1,5 +1,24 @@
 <html lang="en">
-
+<?php
+//$servername = getenv('IP');
+//$username = "root";
+//$password ="";
+//$database = "egr223";
+//$dbport = 3306;
+//
+//$db = new mysqli($servername, $username, $password, $database, $dbport);
+//if ($db->connect_error) {
+//    die("Connection failed: " . $db->connect_error);
+//}
+//echo "Connected successfully (".$db->host_info.")";
+//
+//$query = "select * from users";
+//$result = mysqli_query($db, $query);
+//while ($row = mysqli_fetch_assoc($result)) {
+//    echo "The ID is: " . $row['id'] . " and username is: " . $row['username'];
+//}
+//
+//?>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,6 +37,19 @@
 
     <!-- Custom styles for this template -->
     <link href="./css/style.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+        }
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,10 +80,27 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-        <h1 class="mt-5">Welcome back to Track-A-Habit!</h1>
+        <h1 class="mt-5">Your Profile</h1>
         <p class="lead">
+            <div class = "card">
+            <img src="img/img1.jpg" alt="Sample" style = "width: 100%">
+            <h1>Joe Doe</h1>
+
+            <p class = "title"> Habit Tracker since <?php $reg_date ?> </p>
+        </div>
 
         </p>
+        <h2 class = "mt-sm-1">Mode Settings</h2>
+        <p>Click the button to toggle between dark and light mode for this page.</p>
+
+        <button onclick="myFunction()">Toggle dark mode</button>
+
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
 
     </main>
 
